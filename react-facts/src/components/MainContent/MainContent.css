@@ -1,34 +1,38 @@
-.main-content {
-    background-image: url("../public/reactjs-icon 2.png");
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: 75%;
-    color: white;
-    padding: 3rem 3rem;
+main {
+  background-image: url("../public/reactjs-icon 2.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
+  color: black;
+  padding: 3rem 3rem;
 }
 
-.main-content > h1 {
-    font-size: 55px;
-    margin-bottom: 2rem;
+main > h1 {
+  font-size: 55px;
+  margin-bottom: 2rem;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 ul > li::before {
-    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #61dafb; /* Change the color */
-    font-weight: 900; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 2rem; /* Also needed for space (tweak if needed) */
-    margin-left: 1rem; /* Also needed for space (tweak if needed) */
-    padding-bottom: 1rem;
-    font-size: 2rem;
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61dafb; /* Change the color */
+  font-weight: 900; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 2rem; /* Also needed for space (tweak if needed) */
+  margin-left: 1rem; /* Also needed for space (tweak if needed) */
+  padding-bottom: 1rem;
+  font-size: 2rem;
 }
 
 ul > li > span {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
-
+main.dark {
+  background-color: #282d35;
+  color: white;
+  height: 100vh;
+}
